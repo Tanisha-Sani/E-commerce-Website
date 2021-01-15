@@ -1,0 +1,222 @@
+body{
+    width:90%;
+    margin:0 auto;
+    padding:20px 0;
+    font-family:arial;
+}
+.icon img{
+    width:250px;
+    margin-left: 150px;
+    margin-top:10px;
+    
+}
+
+.menu-bar{
+    float:left;
+    margin-left: 800px;
+    margin-top: -30px;
+ }
+ul li{
+     list-style-type: none;
+     display: inline; 
+ }
+ 
+ ul li a{
+     text-decoration:none !important;
+     padding: 20px 10px;
+     padding: 15px;
+     font-size: 15px;
+     font-weight: bold;
+     color:grey;
+ }
+.introduce-section{
+    width:100%;
+    margin-left:12%;
+    display:flex;
+    margin-top: 50px;
+}
+ .half-width{
+    width: 40%;
+    
+}
+.text-area{
+    margin-top: 60px;
+}
+.half-width img{
+    width:100%;
+    float:right;
+    margin-right: -20px;
+} 
+.button{
+    background:#92AC2C;
+    padding: 18px 32px;
+    border-radius: 5px;
+    color:antiquewhite;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button .fa{
+   margin-right: 5px;
+   font-size: 20px;
+}
+.yellow-text{
+    color:#FABE4C;
+    font-size: 50px;
+    font-weight: bold;
+}
+.blue-text{
+    color:#363958;
+    font-size: 50px;
+    font-weight: bold;
+}
+           /* --------Woman collection started------- */
+
+.h2-text{
+    margin-left: 150px;
+    margin-top: 180px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#363958;
+}  
+                    
+.women-collection{
+   display: grid;
+   grid-template-columns:300px 300px 300px;
+   grid-column-gap: 80px;
+    width:100%;
+    height: 300px;
+    margin-left:150px;
+}
+
+.jacket-image{
+    width:300px;
+    margin-top: 100px;
+
+}
+.jacket-image img{
+    width:250px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.jacket-image h4{
+    color:#363958;
+    font-weight: bold;
+}
+.jacket-image{
+    color: #2f2f36;
+}
+.product-price{
+    color:#FABE4C;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 45px;
+}
+      /* ---------Man-Features---------- */
+
+.Man-features{
+    margin-top: 400px;
+}
+.man-collection{
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    grid-column-gap: 80px;
+    width:100%;
+    height: 300px;
+    margin-left:150px;
+}
+        /* --------marketing area--------- */
+
+.marketing-section{
+    display: grid;
+    grid-template-columns:450px 450px;
+    grid-column-gap: 50px;
+    margin-left:150px;
+    margin-top: 600px;
+    display: inline;
+}
+.marketing-area{
+    margin-top: 450px;
+    margin-left: 150px;
+}
+.marketing-left-area{
+  display: flex;
+  width:350px;
+  height:180px;
+  
+}
+
+.marketing-icon img{
+  width:80px;
+  margin-right: 20px;
+}
+.marketing-text h5{
+    color:#1b205d;
+}
+.marketing-right-area img{
+    float: right;
+    width:600px;
+    margin-right:0;
+    margin-top: -450px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+} 
+.footer-text h4{
+    color:#1b205d;
+}
+.footer-text button{
+	width:120px;
+    padding:2px 2px;
+	background:#92AC2C;
+	margin-left:-5px;
+	border:1px solid gray;
+}
+.footer-text button a{
+	padding:2px 2px;
+	background:#92AC2C;
+    text-decoration:none;
+    color:aliceblue;
+}
+.connected{
+  width:100%;
+  height:250px;
+  background-color: #363958;
+  margin-left:5%;
+  margin-top: 5%;
+}
+.h5-text{
+    color:wheat; 
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contact-group{
+    float: left;
+    margin-left: 300px;
+    text-align: left;
+}
+.follow-us-item{
+    margin-top:50px;
+    text-align: left;
+    margin-left: 700px;
+}
+.follow-us-item h5{
+    
+}
+.fa{
+    font-size: 10px;
+    color:white;
+    margin-right: 8px;
+}
+#p-text{
+    font-size: 10px;
+    color: whitesmoke;
+}
+.line-height{
+   background-color:white;
+   width:90%;
+   margin-top: 4%;
+}
