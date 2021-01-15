@@ -4,31 +4,7 @@ body{
     padding:20px 0;
     font-family:arial;
 }
-.icon img{
-    width:250px;
-    margin-left: 150px;
-    margin-top:10px;
-    
-}
 
-.menu-bar{
-    float:left;
-    margin-left: 800px;
-    margin-top: -30px;
- }
-ul li{
-     list-style-type: none;
-     display: inline; 
- }
- 
- ul li a{
-     text-decoration:none !important;
-     padding: 20px 10px;
-     padding: 15px;
-     font-size: 15px;
-     font-weight: bold;
-     color:grey;
- }
 .introduce-section{
     width:100%;
     margin-left:12%;
@@ -69,6 +45,19 @@ ul li{
     color:#363958;
     font-size: 50px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+    .half-width{
+        width:100%;
+        float:none;
+    }
+    .half-width img{
+      float:none;
+       width:100%;
+
+    }
+    
 }
            /* --------Woman collection started------- */
 
@@ -111,6 +100,14 @@ ul li{
     font-size: 35px;
     font-weight: bold;
     margin-right: 45px;
+}
+
+@media only screen and (max-width: 600px){
+    .jacket-image{
+        width:100%;
+        float: left;
+    }
+   
 }
       /* ---------Man-Features---------- */
 
@@ -204,7 +201,7 @@ footer{
     margin-left: 700px;
 }
 .follow-us-item h5{
-    
+    margin-top: -5px;
 }
 .fa{
     font-size: 10px;
