@@ -31,7 +31,9 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
-
+.button a{
+    text-decoration: none;
+}
 .button .fa{
    margin-right: 5px;
    font-size: 20px;
@@ -47,18 +49,7 @@ body{
     font-weight: bold;
 }
 
-@media only screen and (max-width: 600px){
-    .half-width{
-        width:100%;
-        float:none;
-    }
-    .half-width img{
-      float:none;
-       width:100%;
 
-    }
-    
-}
            /* --------Woman collection started------- */
 
 .h2-text{
@@ -102,13 +93,7 @@ body{
     margin-right: 45px;
 }
 
-@media only screen and (max-width: 600px){
-    .jacket-image{
-        width:100%;
-        float: left;
-    }
-   
-}
+
       /* ---------Man-Features---------- */
 
 .Man-features{
